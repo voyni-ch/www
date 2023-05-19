@@ -1,0 +1,38 @@
+/*
+    Voynich.css
+
+    Colors are modeled/inspired by the colorscheme of
+    NeXTStep. See more at https://en.wikipedia.org/wiki/NeXTSTEP
+ */
+
+
+body {
+    background-color: #505170;
+    color: rgb(221, 221, 221);
+    font-family: serif, "Times New Roman";
+    font-size: 25px;
+}
+
+a {
+    color: aqua;
+}
+
+a:hover {
+    background-color: #353535;
+    color: #b0b0b0;
+}
+
+.b-container {
+    max-width: 75%;
+    word-wrap: break-word;
+    border-color: #000000;
+    background-color: #787878;
+    border-style: solid;
+    border-width: 2px;
+    transition: background-color 0.3s ease;
+}
+
+.b-container:hover {
+    background-color: rgb(146, 146, 170);
+    border-color: #292929;
+}
