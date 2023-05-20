@@ -18,8 +18,15 @@ a {
 }
 
 a:hover {
-    background-color: #353535;
-    color: #b0b0b0;
+    color: violet;
+}
+
+.aimage {
+    transition: transform 0.3s ease;
+}
+
+.aimage:hover {
+    transform: scale(1.2);
 }
 
 .b-container {
