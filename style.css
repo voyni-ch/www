@@ -1,60 +1,36 @@
-/*
-    Voynich.css
-
-    Colors are modeled/inspired by the colorscheme of
-    NeXTStep. See more at https://en.wikipedia.org/wiki/NeXTSTEP
- */
-
-
 body {
-    background-color: #505170;
-    color: rgb(221, 221, 221);
-    font-family: serif, "Times New Roman";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("/bg.gif");
+    color: #45F0DF;
     font-size: 25px;
 }
-
-a {
-    color: aqua;
-}
-
-a:hover {
-    color: violet;
-}
-
-.aimage {
-    transition: transform 0.3s ease;
-}
-
-.aimage:hover {
-    transform: scale(1.2);
-}
-
-.b-container {
-    max-width: 75%;
-    word-wrap: break-word;
-    border-color: #000000;
-    background-color: #787878;
+#container {
+    text-align: center;
     border-style: solid;
-    border-width: 2px;
-    transition: background-color 0.3s ease;
-    padding: 35px;
+    border-color: #45F0DF;
+    border-width: 2.3px;
+    background-color: #682d63;
+    width: 50%;
 }
-
-.b-container:hover {
-    background-color: rgb(146, 146, 170);
-    border-color: #292929;
+img {
+    max-width: 50%;
+    height: auto;
 }
-
-.hax0r {
+.prefont {
     font-family: monospace;
 }
-
-::-moz-selection { /* Code for Firefox */
-    color: rgb(40, 24, 24);
-    background: rgb(223, 194, 255);
+a {
+    color: #DFB2F4;
 }
-  
-::selection {
-    color: rgb(40, 24, 24);
-    background: rgb(230, 208, 255);
+a:hover {
+    font-weight: bold;
+    color: #F49097;
+}
+hr {
+    width: 75%;
 }
