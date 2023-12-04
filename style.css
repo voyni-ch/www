@@ -3,9 +3,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     margin-top: 3%;
-    margin-bottom: 7%;
+    margin-bottom: 3%;
     background-image: url("/bg.gif");
     color: #45F0DF;
     font-size: 25px;
@@ -22,6 +21,10 @@ body {
 img {
     max-width: 50%;
     height: auto;
+    transition: transform .4s;
+}
+img:hover {
+    transform: scale(1.5);
 }
 .prefont {
     font-family: monospace;
@@ -36,4 +39,46 @@ a:hover {
 hr {
     width: 75%;
     opacity: 0.3;
+}
+.rainbow{
+		animation: rainbow 2.5s linear;
+		animation-iteration-count: infinite;
+}
+@keyframes rainbow{
+		100%,0%{
+			color: rgb(255,0,0);
+		}
+		8%{
+			color: rgb(255,127,0);
+		}
+		16%{
+			color: rgb(255,255,0);
+		}
+		25%{
+			color: rgb(127,255,0);
+		}
+		33%{
+			color: rgb(0,255,0);
+		}
+		41%{
+			color: rgb(0,255,127);
+		}
+		50%{
+			color: rgb(0,255,255);
+		}
+		58%{
+			color: rgb(0,127,255);
+		}
+		66%{
+			color: rgb(0,0,255);
+		}
+		75%{
+			color: rgb(127,0,255);
+		}
+		83%{
+			color: rgb(255,0,255);
+		}
+		91%{
+			color: rgb(255,0,127);
+		}
 }
