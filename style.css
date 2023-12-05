@@ -5,7 +5,7 @@ body {
     justify-content: center;
     margin-top: 3%;
     margin-bottom: 3%;
-    background-image: url("/bg.gif");
+    background-image: url("/festive.gif");
     color: #45F0DF;
     font-size: 25px;
 }
@@ -14,9 +14,14 @@ body {
     border-style: solid;
     border-color: #45F0DF;
     border-width: 2.3px;
-    background-color: #682d63;
+    background-color: #692d2d;
     width: 50%;
     margin-top: 10%;
+		transition: .7s;
+}
+#container:hover {
+		background-color: #2f692d;
+		border-color: #f046e7;
 }
 img {
     max-width: 50%;
@@ -81,4 +86,14 @@ hr {
 		91%{
 			color: rgb(255,0,127);
 		}
+}
+.maxiblogtimestamp {
+		background-color: black;
+		color: white;
+}
+.maxiblogentry {
+		border-color: pink;
+		border-style: dashed;
+		border-width: 3px;
+		margin: 3%;
 }
