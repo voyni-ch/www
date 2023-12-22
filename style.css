@@ -39,7 +39,9 @@ a {
 }
 a:hover {
     font-weight: bold;
-    color: #F49097;
+    /*color: #F49097;*/
+		animation: trans 1.5s linear;     
+		animation-iteration-count: infinite;
 }
 hr {
     width: 75%;
@@ -96,4 +98,11 @@ hr {
 		border-style: dashed;
 		border-width: 3px;
 		margin: 3%;
+}
+@keyframes trans {
+	0%  {color: #5bcefa}
+	25% {color: pink}
+	50% {color: white}
+	75% {color: pink}
+	100% {color: #5bcefa}
 }
