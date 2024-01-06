@@ -8,6 +8,8 @@ body {
     background-image: url("/festive.gif");
     color: #45F0DF;
     font-size: 25px;
+	cursor: url('cursor.gif'), auto;
+	cursor: url('cursor.gif'), pointer;
 }
 #container {
     text-align: center;
